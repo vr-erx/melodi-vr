@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: #635854;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 4px solid #3596F5;
+}
+.navbar {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.navbar-item{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.navbar-link{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-text{
+    display: block;
+    color: #fff;
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.navbar-contacts{
+    text-align: right;
+}
+.navbar-phone{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.home{
+    max-width: 1200px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+.floors{
+    display: block;
+    align-items: flex-start;
+    margin-top: -700px;
+    margin-left: 750px;
+}
+.floor{
+    display: block;
+    width: 100px;
+    height: 76px;
+    margin-left: 300px;
+}
+.namber{
+    margin-top: 35px;
+    text-align: center;
+}
+.text{
+    font-size: 34px;
+    text-align: center;
+    color: #635854;
+    margin-top: 126px;
+}
+.arrow{
+    text-align: center;
+    margin-top: 85px;
+}
+.arrow2{
+    text-align: center;
+    margin-top: 35px;
+}
+.button{
+    display: block;
+    align-items: flex-start;
+    background-color: #3596F5;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 115px;
+    margin-left: 270px;
+}
+.button-text{
+    color: #fff;
+    font-size: 16px;
+}
+footer{
+    margin-top: 200px;
+    height: 100px;
+    background-color: #D7D7D7;
+    border-top: 4px solid #3596F5;
+}
+.standart{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.zakaz-zvonka{
+    margin-left: 185px;
+    margin-top: -60px;
+    color: #635854;
+}
+.phone{
+    margin-left: 185px;
+    margin-top: -10px;
+    color: #635854;
+    font-size: 17px;
+}
+.footer-text{
+    margin-left: 1000px;
+    margin-top: -25px;
+}
+.footer-text a{
+    margin-right: 10px;
+    color: #635854;
+}
+.footer_img{
+    width: 30px;
+    background-color: #635854;
+    mix-blend-mode: darken;
+    border-radius:20px;
+    padding: none;
+}
+.footer_icons{
+    
+    margin-left: 400px;
+    margin-top: -55px;
+}
